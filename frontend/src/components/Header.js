@@ -19,7 +19,9 @@ const Header = () => {
   const context=useContext(Context)
   const navigate=useNavigate()
   const searchInput=useLocation()
-  const [search,setSerach]=useState(searchInput?.search.split("=")[1])
+  const URLsearch=new URLSearchParams(searchInput?.search)
+  const searchQuery=URLsearch.getAll("q")
+  const [search,setSerach]=useState(searchQuery)
 
 
   const handleLogout=async()=>{
@@ -32,8 +34,8 @@ const Header = () => {
 
     if(data.success){
       toast.success(data.message)
-
       dispatch(setUserDetails(null))
+      navigate("/")
     }
     if(data.error){
       toast.error(data.message)
