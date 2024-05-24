@@ -50,7 +50,7 @@ const ProductDetails = () => {
 
   useEffect(()=>{
     fetchProductDetails()
-  },[])
+  },[params])
 
   console.log("data",data)
 

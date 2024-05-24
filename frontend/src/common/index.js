@@ -69,6 +69,10 @@ const summaryApi={
         url:`${backendDomain}/api/delete-card-product`,
         method:"post"
     },
+    serachProduct:{
+        url:`${backendDomain}/api/search`,
+        method:"get"
+    },
 
 }
 

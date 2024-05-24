@@ -12,6 +12,7 @@ import AllProducts from "../pages/AllProducts";
 import CategoryProduct from "../pages/CategoryProduct";
 import ProductDetails from "../pages/ProductDetails";
 import Cart from "../pages/Cart";
+import SerarchProduct from "../pages/SerarchProduct";
 
 const router = createBrowserRouter([
   {
@@ -45,6 +46,10 @@ const router = createBrowserRouter([
         {
           path:"/cart",
           element:<Cart/>
+        },
+        {
+          path:"/search",
+          element:<SerarchProduct/>
         },
         {
             path:"admin-panel",
