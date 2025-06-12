@@ -2,35 +2,42 @@
  
 This project is a full-stack eCommerce website built using the MERN stack (MongoDB, Express, React, Node.js) with Tailwind CSS for styling. It provides comprehensive functionalities for both users and administrators.
 
-<h3>Key Features</h3>
-
-User Features:
+<h3><u>Technologies Used</u></h3>
 <ul>
-<li>Authentication: Users can register and log in securely.</li>
-<li>Product Browsing: Browse products categorized by type.</li>
-<li>Search: Search products by name or keyword.</li>
-<li>Sorting and Filtering: Sort products by price and popularity; filter by categories.</li>
-<li>Product Details: View detailed information about each product.</li>
-<li>Shopping Cart: Add products to a cart and manage cart items.</li>
-<li>Checkout Process: Proceed through a seamless checkout process.</li>
+🔹 Frontend: React, Tailwind CSS<br>
+🔹 Backend: Node.js, Express<br>
+🔹 Database: MongoDB<br>
+🔹 Authentication: JSON Web Tokens (JWT)<br>
+</ul>
+
+<h3><u>Features</u></h3>
+
+
+<h4>User Features:</h4>
+<ul>
+✅ Authentication: Users can register and log in securely.<br>
+✅ Product Browsing: Browse products categorized by type.<br>
+✅ Search: Search products by name or keyword.<br>
+✅ Sorting and Filtering: Sort products by price and popularity; filter by categories.<br>
+✅ Product Details: View detailed information about each product.<br>
+✅ Shopping Cart: Add products to a cart and manage cart items.<br>
+✅ Checkout Process: Proceed through a seamless checkout process.<br>
  </ul>
-Admin Features:<br><br>
+<h4>Admin Features:</h4>
 <ul>
-<li>Product Management: Perform CRUD operations for products.</li>
-<li>User Management: Admin panel to manage user accounts.</li>
+✅ Product Management: Perform CRUD operations for products.<br>
+✅ User Management: Admin panel to manage user accounts.<br>
 </ul>
 
-Technologies Used:
-<ul>
-<li>Frontend: React, Tailwind CSS</li>
-<li>Backend: Node.js, Express</li>
-<li>Database: MongoDB</li>
-<li>Authentication: JSON Web Tokens (JWT)</li>
-</ul>
+
 
 <h2>This is the Full Demo of the project</h2><br><br>
 
-![Demo](https://github.com/kusha2000/E-Commerce-with-MERN/assets/127003267/c992fa29-8521-4563-af77-cf85ff0c08c6)
+
+
+https://github.com/user-attachments/assets/73f3765e-571e-4e8d-9202-c4d0586ff5b5
+
+
 
 
 <br><br>
